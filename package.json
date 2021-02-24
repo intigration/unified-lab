@@ -1,18 +1,48 @@
 {
-  "name": "nuxtjs",
+  "name": "sqa.dev",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@nuxt/content": "^1.10.0",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "prism-themes": "^1.5.0",
+    "vue-gtag": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/fontawesome": "^1.1.2"
+  },
+  "description": "```bash\r # install dependencies\r $ yarn install",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truar/developer-blog.git"
+  },
+  "author": "panda-developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truar/developer-blog/issues"
+  },
+  "homepage": "https://github.com/truar/developer-blog#readme",
+  "keywords": [
+    "sqa",
+    "dev",
+    "technology",
+    "delivery",
+    "quality",
+    "tooling"
+  ]
 }
